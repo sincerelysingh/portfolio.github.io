@@ -47,6 +47,11 @@ $(window).load(function() {
 });
 
 
+			// RESPONSIVE MENU
+		$('.responsive-menu').click(function(){
+				$('.top-menu li').slideToggle();
+			});
+
 // SIDEBAR SCROLL
 			$(function(){
 			 $('.widget-out').perfectScrollbar({
@@ -67,8 +72,3 @@ $(window).load(function() {
             function k() {
                 $("body").removeClass("slidemenu-opened")
             }
-
-			// RESPONSIVE MENU
-		$('.responsive-menu').click(function(){
-				$('.top-menu li').slideToggle();
-			});
