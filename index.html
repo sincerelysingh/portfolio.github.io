@@ -48,7 +48,11 @@
 <body>
 
    <!-- Preloading -->
-
+    <div id="preloader" style="display: none;">
+      <div class="spinner">
+            <div class="uil-ripple-css" style="transform:scale(0.29);"><div></div><div></div></div>
+        </div>
+    </div>
 
     <div class="parallax"> </div>
     <div id="wrapper">
@@ -80,11 +84,11 @@
                       <!--Top Menu -->
                         <div class="responsive-menu hidden-md hidden-lg">MENU</div>
                         <ul class="top-menu">
-                            <li style="display: list-item;" class="active"> <a class="selected page-scroll" href="#about"><i class="fa fa-user"></i> <span> ABOUT ME </span></a></li>
-                            <li style="display: list-item;" class=""> <a class="page-scroll" href="#resume"><i class="fa fa-file-text-o"></i>  <span> RESUME </span></a></li>
-                            <li style="display: list-item;" class=""> <a class="page-scroll" href="#portfolio"><i class="fa fa-picture-o"></i>  <span> PROJECTS</span></a></li>
-                            <li style="display: list-item;" class=""> <a class="page-scroll" href="#now"><i class="fa fa-code"></i> <span>NOW</span></a></li>
-                            <li style="display: list-item;" class=""> <a class="page-scroll" href="#contact"><i class="fa fa-map-marker"></i> <span> CONTACT </span></a></li>
+                            <li style="" class="active"> <a class="page-scroll" href="#about"><i class="fa fa-user"></i> <span> ABOUT ME </span></a></li>
+                            <li style="" class=""> <a class="page-scroll" href="#resume"><i class="fa fa-file-text-o"></i>  <span> RESUME </span></a></li>
+                            <li style="" class=""> <a class="page-scroll" href="#portfolio"><i class="fa fa-picture-o"></i>  <span> PROJECTS</span></a></li>
+                            <li style="" class=""> <a class="page-scroll" href="#now"><i class="fa fa-code"></i> <span>NOW</span></a></li>
+                            <li style="" class=""> <a class="page-scroll" href="#contact"><i class="fa fa-map-marker"></i> <span> CONTACT </span></a></li>
                         </ul>
 
                     <!--Right Content -->
@@ -320,7 +324,7 @@
                                     <!--Message-->
                                     <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
                                     <input id="con_submit" class="but-big" type="submit" value="SEND A MESSAGE">
-                                    
+
                                 </form>
                                 <!-- Contact Information -->
                                 <div class="col-md-6 contact-info">
@@ -343,74 +347,6 @@
         </div><!-- .container end -->
     </div> <!-- #wrapper end-->
 
-    <!-- Slidemenu -->
-    <div class="slidemenu-fixed">
-                <button class="right-menu slidemenu-close"><i class="fa fa-times" aria-hidden="true"></i></button>
-                <div class="widget-out ps-container">
-                    <!-- Search Widget-->
-                    <div class="widget-search widget">
-                        <h2 class="widget-title">Search</h2>
-                        <form>
-                            <input class="search-inp" type="text" placeholder="Search...">
-                            <input class="search-ico" type="submit" value="">
-                        </form>
-                     </div>
-                    <!-- Submenu Widget-->
-                    <div class="widget-submenu widget">
-                        <h2 class="widget-title">Submenu</h2>
-                            <ul>
-                               <li> <a href="single-blog.html">Standart Post </a> </li>
-                               <li> <a href="audio-post.html">Audio Post </a> </li>
-                               <li> <a href="video-post.html">Video Post </a> </li>
-                               <li> <a href="404.html">404 Page </a> </li>
-                            </ul>
-                     </div>
-                     <!--Latest Posts-->
-                    <div class="widget-blog widget">
-                        <h2 class="widget-title">Latest Posts</h2>
-                            <ul class="latest-post">
-                               <li>
-                                    <div class="tag"><a href="#">#Business </a> <a href="#">#Company </a> </div>
-                                    <a class="post" href="single-blog.html">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
-                                    <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
-                               </li>
-                               <li>
-                                    <div class="tag"><a href="#">#Business </a> <a href="#">#Company </a> </div>
-                                    <a class="post" href="single-blog.html">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
-                                    <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
-                               </li>
-                               <li>
-                                    <div class="tag"><a href="#">#Business </a> <a href="#">#Company </a> </div>
-                                    <a class="post" href="single-blog.html">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
-                                    <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
-                               </li>
-                            </ul>
-                     </div>
-                     <!-- Categories Widget-->
-                    <div class="widget-submenu widget">
-                        <h2 class="widget-title">Categories</h2>
-                            <ul>
-                               <li> <a href="#"> Web Design </a></li>
-                               <li> <a href="#"> Photoshop </a></li>
-                               <li> <a href="#"> After Effect </a></li>
-                               <li> <a href="#"> Dreamviewer </a></li>
-                            </ul>
-                     </div>
-                     <!-- Tags Widget-->
-                    <div class="widget-tags widget">
-                        <h2 class="widget-title">Tags</h2>
-                            <ul>
-                               <li><a href="#"> Web Design </a></li>
-                               <li><a href="#"> Photoshop </a></li>
-                               <li><a href="#"> After Effect </a></li>
-                               <li><a href="#"> Dreamviewer </a></li>
-                               <li><a href="#"> Application </a></li>
-                               <li><a href="#"> Seo </a></li>
-                               <li><a href="#"> Other Issues </a></li>
-                            </ul>
-                     </div>
-                <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px; width: 265px; display: none;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px; height: 672px; display: inherit;"><div class="ps-scrollbar-y" style="top: 0px; height: 299px;"></div></div></div>
-            </div>
 
         <div id="overlay"></div>
 

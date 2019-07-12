@@ -1,7 +1,7 @@
 $(window).load(function() {
 
 	//PRELOADER
- $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+ $('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
 
 
 
@@ -70,5 +70,5 @@ $(window).load(function() {
 
 			// RESPONSIVE MENU
 		$('.responsive-menu').click(function(){
-				$('.top-menu li').slideToggle();
+				$('.top-menu ul').slideToggle();
 			});
